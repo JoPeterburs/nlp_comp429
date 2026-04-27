@@ -31,7 +31,7 @@ print(reviews.head())
 print(reviews["Sentiment"].value_counts())
 
 
-### 2. train and test set
+### 2. train/dev/test sets (70/15/15)
 
 X = reviews["Review"]
 y = reviews["Sentiment"]
